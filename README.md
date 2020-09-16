@@ -7,8 +7,8 @@ Bux mail:tasnim.sakib.apon@g.bracu.ac.bd
 Phone: 01951445484
 
 MD. Refayet Islam Reejon
-ID: 16301184
-Email: reejon.ajitobangla95@gmail.com
+ID:16301184
+Email:reejon.ajitobangla95@gmail.com
 Bux mail: md.refayet.islam.reejon@g.bracu.ac.bd
 Phone-01785282239
 
