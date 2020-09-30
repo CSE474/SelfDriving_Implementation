@@ -22,7 +22,7 @@ Platform assembly: H:\GitHub\SelfDriving_Implementation\Default Windows desktop 
 Loading H:\GitHub\SelfDriving_Implementation\Default Windows desktop 64-bit_Data\Managed\UnityEngine.CloudBuild.dll into Unity Child Domain
 Platform assembly: H:\GitHub\SelfDriving_Implementation\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll (this message is harmless)
 Loading H:\GitHub\SelfDriving_Implementation\Default Windows desktop 64-bit_Data\Managed\UniFileBrowser.dll into Unity Child Domain
-- Completed reload, in  0.282 seconds
+- Completed reload, in  0.047 seconds
 Platform assembly: H:\GitHub\SelfDriving_Implementation\Default Windows desktop 64-bit_Data\Managed\System.Core.dll (this message is harmless)
 Platform assembly: H:\GitHub\SelfDriving_Implementation\Default Windows desktop 64-bit_Data\Managed\System.dll (this message is harmless)
 OnLevelWasLoaded was found on ReturnToMainMenu
@@ -37,12 +37,102 @@ desktop: 1366x768 60Hz; virtual: 1366x768 at 0,0
 <RI> Initializing input.
 <RI> Input initialized.
 <RI> Initialized touch support.
-UnloadTime: 20.875801 ms
+UnloadTime: 17.632900 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 3120 -> priority: 1 
+  Thread -> id: 373c -> priority: 1 
 Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
-UnloadTime: 3.673900 ms
+UnloadTime: 3.115200 ms
 
 Unloading 9 unused Assets to reduce memory usage. Loaded Objects now: 419.
-Total: 0.200200 ms (FindLiveObjects: 0.028000 ms CreateObjectMapping: 0.007500 ms MarkObjects: 0.149700 ms  DeleteObjects: 0.014500 ms)
+Total: 0.683700 ms (FindLiveObjects: 0.034600 ms CreateObjectMapping: 0.017800 ms MarkObjects: 0.294000 ms  DeleteObjects: 0.336200 ms)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.053700 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1465.
+Total: 0.652900 ms (FindLiveObjects: 0.106300 ms CreateObjectMapping: 0.020900 ms MarkObjects: 0.260700 ms  DeleteObjects: 0.264500 ms)
+
+Platform assembly: H:\GitHub\SelfDriving_Implementation\Default Windows desktop 64-bit_Data\Managed\System.Configuration.dll (this message is harmless)
+Platform assembly: H:\GitHub\SelfDriving_Implementation\Default Windows desktop 64-bit_Data\Managed\System.Xml.dll (this message is harmless)
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.098300 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 2.074100 ms (FindLiveObjects: 0.051600 ms CreateObjectMapping: 0.012200 ms MarkObjects: 0.362400 ms  DeleteObjects: 1.647100 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Rigidbody:INTERNAL_get_velocity (UnityEngine.Vector3&)
+  at UnityEngine.Rigidbody.get_velocity () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
+  at CommandServer.<EmitTelemetry>m__0 () [0x00000] in <filename unknown>:0 
+  at UnityMainThreadDispatcher+<ActionWrapper>c__IteratorD.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<Enqueue>c__AnonStorey21:<>m__20()
+UnityMainThreadDispatcher:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.356100 ms
+
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 1469.
+Total: 0.766600 ms (FindLiveObjects: 0.089300 ms CreateObjectMapping: 0.021000 ms MarkObjects: 0.390300 ms  DeleteObjects: 0.265400 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 2.138300 ms
+
+Unloading 174 unused Assets to reduce memory usage. Loaded Objects now: 433.
+Total: 2.034700 ms (FindLiveObjects: 0.022300 ms CreateObjectMapping: 0.011500 ms MarkObjects: 0.344400 ms  DeleteObjects: 1.656000 ms)
+
+NullReferenceException
+  at (wrapper managed-to-native) UnityEngine.Rigidbody:INTERNAL_get_velocity (UnityEngine.Vector3&)
+  at UnityEngine.Rigidbody.get_velocity () [0x00000] in <filename unknown>:0 
+  at UnityStandardAssets.Vehicles.Car.CarController.get_CurrentSpeed () [0x00000] in <filename unknown>:0 
+  at CommandServer.<EmitTelemetry>m__0 () [0x00000] in <filename unknown>:0 
+  at UnityMainThreadDispatcher+<ActionWrapper>c__IteratorD.MoveNext () [0x00000] in <filename unknown>:0 
+  at UnityEngine.SetupCoroutine.InvokeMoveNext (IEnumerator enumerator, IntPtr returnValueAddress) [0x00000] in <filename unknown>:0 
+UnityEngine.MonoBehaviour:StartCoroutine_Auto(IEnumerator)
+UnityEngine.MonoBehaviour:StartCoroutine(IEnumerator)
+<Enqueue>c__AnonStorey21:<>m__20()
+UnityMainThreadDispatcher:Update()
+ 
+(Filename:  Line: -1)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.500200 ms
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 959.
+Total: 0.482200 ms (FindLiveObjects: 0.071200 ms CreateObjectMapping: 0.027600 ms MarkObjects: 0.369100 ms  DeleteObjects: 0.014000 ms)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Connection Open
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineDebugBindings.gen.cpp Line: 42)
+
+Unloading 3 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.531400 ms
+
+Unloading 91 unused Assets to reduce memory usage. Loaded Objects now: 443.
+Total: 0.922400 ms (FindLiveObjects: 0.016500 ms CreateObjectMapping: 0.008700 ms MarkObjects: 0.314600 ms  DeleteObjects: 0.582400 ms)
 
