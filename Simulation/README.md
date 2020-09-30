@@ -10,4 +10,4 @@ After generating train data the user should  run the model.py for training.
 
 By writing pyhon model.py the user should be able to train the data. It would take around 15-20 minutes.
 
-Fnally When the training is done the user can run the simulation using python drive.py model.h5
+Fnally When the training is done the user can run the simulation using python drive.py model.h5(model.h5 is our trained model)
