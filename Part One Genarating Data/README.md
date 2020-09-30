@@ -8,4 +8,7 @@ After hitting the record unity takes three photos from its three cameras, its st
 
 its speed and stores it in a CSV which is named driving_log.csv.
 
+Our training data along with IMG files that contains the photos is added in this folder. 
+
+A video is also uploaded for the convenience of the viewer.
 
