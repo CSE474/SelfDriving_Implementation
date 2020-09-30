@@ -26,3 +26,6 @@ Phone: 01785282239
 
 
 Default Windows desktop 64-bit.exe is our simulator. 
+
+
+Detaild information is given in each folder.
