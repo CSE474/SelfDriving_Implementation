@@ -2,7 +2,7 @@ To run this simulation first the libraries should be installed.
 
 With anaconda,I have created a separted environment called car with all the dependencies.
 
-After the libraries are install user should genrate training data by driving in the simulator. 
+After the libraries are installed user should generate training data by driving in the simulator. 
 
 To run the simulator,simply user have to execute the DefaultWindowsdesktop64-bit.exe file
 
